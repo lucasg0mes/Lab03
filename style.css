@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color:inherit;
+   }
+
+body{
+    background-color: darkslategray;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner{
+    background-color: #263f3f;
+    height: 4.6875rem;
+    font-size: 3.125rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+
+}
+
+ul{
+    background-color: rgb(77, 157, 157);
+    max-width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+    color:white;
+
+}
+
+table{
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(77, 157, 157);
+    padding: 24px;
+    border-radius: 10px;
+
+}
+
+.filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .imagem {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .info {
+    flex: 1;
+    text-align: left;
+  }
